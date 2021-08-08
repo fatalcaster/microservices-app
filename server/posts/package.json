@@ -1,0 +1,21 @@
+{
+    "name": "posts",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "dependencies": {
+        "axios": "^0.21.1",
+        "fastify": "^3.19.1",
+        "fastify-cors": "^6.0.2",
+        "nodemon": "^2.0.12",
+        "types": "^0.1.1",
+        "typescript": "^4.3.5"
+    },
+    "scripts": {
+        "dev": "nodemon ./dist/index.js",
+        "build": "tsc --build"
+    },
+    "devDependencies": {
+        "@types/node": "^16.4.13"
+    }
+}

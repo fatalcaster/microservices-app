@@ -1,0 +1,12 @@
+.post-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.card {
+    border: 0.125em solid #000000;
+    border-radius: 1em;
+    padding: 1em;
+}

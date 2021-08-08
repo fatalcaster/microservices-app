@@ -1,0 +1,17 @@
+import { FastifyReply, FastifyRequest } from "fastify";
+import { RouteGenericInterface } from "fastify/types/route";
+import { Server, IncomingMessage, ServerResponse } from "http";
+
+export type ReplyType = FastifyReply<
+    Server,
+    IncomingMessage,
+    ServerResponse,
+    RouteGenericInterface,
+    unknown
+>;
+
+export type RequestType = FastifyRequest<
+    RouteGenericInterface,
+    Server,
+    IncomingMessage
+>;
